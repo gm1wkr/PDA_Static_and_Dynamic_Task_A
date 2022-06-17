@@ -6,8 +6,9 @@
 
 class CardGame:
 
-  def __init__(self, card):
-        self.card = card
+  # def __init__(self):
+  #       pass
+  #       # self.card = card
 
   def check_for_ace(self, card):
     if card.value == 1: # added == 
@@ -28,5 +29,5 @@ class CardGame:
       total = 0  # initialised 
       for card in cards:
         total += card.value
-        return "You have a total of" + total
+      return f"You have a total of {total}"
       # Corrected indentation of whole block

@@ -16,8 +16,6 @@ Only comment on errors that would stop the tests running.
 
 class CardGame:
 
-# Constructor method is missing. No instance variables have been created. 
-
 
   def check_for_ace(self, card):
     if card.value = 1:
